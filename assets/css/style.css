@@ -1,11 +1,79 @@
-.YourName {
+body {
+	margin: 0px;
+	background-image: url("../images/concrete.png");
+	background-size: 100%;
+	/*background-color: gray;*/
+}
+
+.content-wrap {
+	height: 100%;
+	width: 960px;
+	margin: 0 auto 0 auto;
+	/*background: gray;*/
+}
+
+h3.Navigation {
+	float:right;
+	display: inline-block;
+	color: #cccccc;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+h1.YourName {
+	font-size: 28px;
+	display: inline-block;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 	background-color: #4aaaa5;
 	color: white;
 	margin-top: 0;
 	margin-bottom: 0;
-	display: inline-block;
 	float: left;
-	padding: 15px;
+	padding: 19px;
+}
+
+main {
+	display: inline-block;
+	background: #FFF;
+	width: 650px;
+	margin-top: 50px;
+	margin-left: auto;
+	padding-bottom: 40px;
+	/*min-height: 100%;*/
+}
+
+aside {
+	display: inline-block;
+	background: #FFF;
+	width: 270px;
+	margin-top: 50px;
+	margin-right: auto;
+	padding-bottom: 40px;
+	/*min-height: 100%;*/
+	float: right;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  /*padding: 50px;*/
+  margin: 0;
+  text-align: center;
+  background: #666666;
+  width: 100%;
+  /*margin-bottom: -40px;*/
+  vertical-align: middle;
+  border-top-width: 3px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-style: solid;
+  border-color: #4aaaa5;
+  height: 70px;
+}
+
+html, body {
+	height: 100%;
 }
 
 header {
@@ -20,55 +88,131 @@ header {
 	border-color: #cccccc;
 	display: inline-block;
 	width: 100%;
+    vertical-align: middle;
 }
 
-h3.Navigation {
-	float:right;
-	display: inline-block;
-	color: #cccccc;
-}
 
-body {
-	margin: 0px;
-	background: gray;
-}
-
-main {
-	display: inline-block;
-	background: #cccccc;
-	width: 650px;
-	height: 400px;
-	margin-top: 50px;
-	margin-left: auto
-	padding-bottom: 90px;
-	min-height: 100%;
-}
-
-header h1 {
+.ContentHeader {
 	font-size: 28px;
+	color: #4aaaa5;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 3px;
+	border-style: solid;
+	border-color: #cccccc;
+	margin-left: 20px;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	margin-right: 20px;
+	font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.ProfilePicture {
+	margin-left: 20px;
+	margin-top: 20px;
 	display: inline-block;
-	font-family: Georgia;
+	padding-right: 5px;
+	padding-bottom: 5px;
 }
 
-.content-wrap {
-	height: 100%;
-	width: 960px;
-	margin: 0 auto 0 auto;
-	background: gray;
+p {
+	margin-right: 20px;
+	padding-top: 20px;
+	margin-left: 20px;
+	color: #777777;
+	font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+img.ProfilePicture {
+	float: left;
+	display: inline-block;
+}
+
+.ContactImage {
+	margin-left: 50px;
+	margin-top: 20px;
+	vertical-align: middle;
+}
+
+a {
+	color: #777777;
+	text-decoration: none;
+	font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+p.Copyright {
+	/*margin-bottom: 20px;*/
+	color: #ccc;
+}
+
+.ContactForm {
+	margin-left: 20px;
+	margin-top: 20px;
+	color: #777777;
+	text-decoration: none;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+input[type=text] {
+	margin-top:5px;
+    padding:5px; 
+    padding-right:475px;
+    border:1x solid #ccc; 
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
 }
 
 
-footer{
-  position: fixed;
-  bottom: 0;
-  padding: 40px;
-  margin: 0;
-  text-align: center;
-  background: #eee;
-  width: 100%;
-  margin-bottom: -30px;
+input[type=submit] {
+    padding:8px 20px; 
+    background:#4aaaa5; 
+    border:0 none;
+    cursor:pointer;
+    color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-html, body {
-	height: 100%;
+input.Message {
+	padding-bottom:200px;
+	resize: both;
+	overflow: auto;
+}
+
+div.MessageBox {
+
+}
+
+img.PicPortfolio {
+	padding-left: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+section.PictureContainer {
+	padding-bottom: 50px;
+}
+
+
+div.image{
+   position: relative; 
+   display:inline-block;
+}
+
+h2.imageText{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: white;
+	background: #4aaaa5;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 105px;
+	padding-right: 50px;
+	bottom: 28px;
+	left: 20px;
+	right: 20px;
+	position: absolute;
+	vertical-align: 
+	font-size: 16px;
 }
