@@ -24,19 +24,20 @@
 
 				<section>
 				
-				<form class="ContactForm">
+				<form class="ContactForm" action="mailto:mattlgroff@gmail.com" method="post" enctype="text/plain">
 				  Name<br>
-				  <input type="text" name="name" placeholder="John Smith">
+				  <input class="smallField" type="text" name="name" placeholder="John Smith">
 				  <br>
 				  <br>
 				  Email<br>
-				  <input type="text" name="email" placeholder="example@gmail.com">
+				  <input class="smallField" type="text" name="email" placeholder="example@gmail.com">
 				  <br>
 				  <br>
 				  Message<br>
-				  <div class="MessageBox">
-				  	<input class="Message" type="text" name="message" placeholder="">
-				  </div>	
+				  <!-- <input class="bigField" type="text" name="message" placeholder="">	 -->
+				  <textarea class="bigField" rows="15" cols="97" class="text" name="Message">
+					
+				  </textarea>
 				  <br><br>
 				  <input type="submit" value="Submit">
 				</form> 

@@ -10,6 +10,7 @@ body {
 	width: 960px;
 	margin: 0 auto 0 auto;
 	/*background: gray;*/
+	/*min-height: calc(100vh - 70px);*/
 }
 
 h3.Navigation {
@@ -154,10 +155,10 @@ p.Copyright {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-input[type=text] {
+input[type=text], textarea {
 	margin-top:5px;
     padding:5px; 
-    padding-right:475px;
+    /*padding-right:475px;*/
     border:1x solid #ccc; 
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -172,16 +173,6 @@ input[type=submit] {
     cursor:pointer;
     color: white;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-input.Message {
-	padding-bottom:200px;
-	resize: both;
-	overflow: auto;
-}
-
-div.MessageBox {
-
 }
 
 img.PicPortfolio {
@@ -215,4 +206,15 @@ h2.imageText{
 	position: absolute;
 	vertical-align: 
 	font-size: 16px;
+}
+
+input.smallField {
+	width: 595px;
+}
+
+textarea.bigField {
+	/*padding-bottom:200px;*/
+	/*width: 595px;*/
+	/*height: 200px;*/
+	border-color: #ccc;
 }
